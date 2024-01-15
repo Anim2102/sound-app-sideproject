@@ -1,0 +1,12 @@
+version: '3'
+services:
+  node-websocket-server:
+    build: ./websock
+    ports:
+      - "3000:3000" 
+
+  angular-server:
+    build: ./sound-app
+    ports:
+      - "80:80" 
+    

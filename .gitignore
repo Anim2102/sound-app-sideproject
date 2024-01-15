@@ -1,0 +1,21 @@
+/node_modules
+
+# build outputs
+/dist
+/out-tsc
+
+# IDE files
+/.idea
+/.vscode
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+
+# System Files
+.DS_Store
+Thumbs.db
